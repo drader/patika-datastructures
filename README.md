@@ -1,4 +1,8 @@
 # patika-datastructures
 
 ### Python Lessons
-Final Project : pythonFinalProject.py
+Challenges & Projects from Patika.dev:
+  ~/PatikaProjects/
+
+Challenges & Projects from Coderbyte:
+  ~/Coderbyte/
