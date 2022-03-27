@@ -1,6 +1,7 @@
 # Machine Learning Algorithms Categories
 
-This document will be developed with examples soon.
+This document will be enhanced with examples soon.
+https://app.patika.dev/drader
 
 ## 1.   Supervised Learning Algorithms:
 ####    A. Classification Algorithms:
