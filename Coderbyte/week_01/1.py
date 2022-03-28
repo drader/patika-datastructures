@@ -11,6 +11,7 @@ def ConsonantCount(strParam):
 
   return len(s)
 
+print(ConsonantCount(input()))
 """Test Cases - False returned
 1. For input "Hewlett-Packard" the output was incorrect. The correct output is 10
 
