@@ -18,13 +18,7 @@ Output: 16
 Input: [5, 6]
 Output: 4 
 """
-
 from itertools import combinations
-
-a = [1, 2, 3, 4]
-res = 1
-for i in range(len(a)):
-    res+=len(list(combinations(a, i)))
 
 def PowerSetCount(arr):
     res = 1
@@ -32,5 +26,8 @@ def PowerSetCount(arr):
         res+=len(list(combinations(arr, i)))
     return res
 
+def PowerSetCount_alternative(arr):
+    return 2 ** len(arr)
+
 # keep this function call here 
-print(PowerSetCount(a))
+print(PowerSetCount(input()))
