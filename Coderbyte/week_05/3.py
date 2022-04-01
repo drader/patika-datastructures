@@ -24,7 +24,7 @@ def ArrayCouples(arr):
             res.append(mylist[j])
 
     #   If result list is empty, all pairs has its reverse and returns "yes". Else returns flat result list. 
-    return str(sum(res, []))[1:-1] if len(res) else "Yes"    
+    return str(sum(res, []))[1:-1] if len(res) else "Yes" 
 
 """ 
     ### An alternative way to flatten result ###
