@@ -93,16 +93,4 @@ def foo(num):
 
     return res
 
-print(foo(500))
-
-
-"""memo = {}
-def func(num):
-    if num in memo.keys():
-        return memo[num]
-    if num <= 2:
-        return num
-    memo[num] = func(num-1) + func(num-2)
-    return memo[num]
-
-print(func(int(input())))"""
+print(foo(5))
