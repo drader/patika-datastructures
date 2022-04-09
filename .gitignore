@@ -1,5 +1,8 @@
 test/**
 PatikaDocuments/**
 PatikaProjects/**
+!PatikaProjects/DataStructure_Algorithms/**
+!PatikaProjects/Python/**
+!PatikaProjects/SQL/**
 CourseNotes/**
 PersonalDevelopment/**
