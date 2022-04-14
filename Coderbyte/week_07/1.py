@@ -8,7 +8,7 @@ Input:  "x"
 Output: "false"
 """
 
-def ExOh(str):
-    return "true" if str.count('x') == len(str) / 2 else "false"
+def ExOh(strParam):
+    return "true" if strParam.count('x') == len(strParam) / 2 else "false"
 
 print(ExOh(input()))
