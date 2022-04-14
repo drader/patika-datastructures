@@ -10,6 +10,6 @@ Output: [10]
 
 
 def consecutive(arr):
-    return max(arr) - min(arr) -len(arr) + 1
+    return max(arr) - min(arr) - len(arr) + 1
 
 print(consecutive(input()))
